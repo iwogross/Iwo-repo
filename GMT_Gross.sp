@@ -12,4 +12,6 @@ module load gmt
 # -P: PAge orientation = "Portrait"
 # Map output in postscript format
 
-pscoast -Rg -JG280/30/6i -Dh -Gblack -SDarkTurquoise -P > GMT_Gross.ps
+#Just updated the continental color to "chocolate"
+
+pscoast -Rg -JG280/30/6i -Dh -Gchocolate -SDarkTurquoise -P > GMT_Gross.ps
